@@ -1,15 +1,8 @@
----
-title: "Packaging a Simple Python Script with PEX"
-tags: python pex
----
-
 Recently I needed to create a package for a simple Python CLI tool which includes all dependencies.
 It turns out that there is a great tool [PEX](https://pex.readthedocs.org/en/stable/) which can build
 an executable zip Python package.
 
 That's exactly what I needed, but unfortunately the documentation for my simple use case was sorely lacking. Described here is how to get PEX working to package a simple CLI tool.
-
-ENDOFSUMMARY
 
 ## Requirements
 
@@ -28,23 +21,17 @@ Key factors
 /samplepkg/main.py
 </pre>
 
-### setup.py
+### [setup.py](https://github.com/idlerun/simple-pex/blob/master/setup.py)
 
 The `setup.py` contains a package description. More details can be found [here](https://docs.python.org/3.5/distutils/setupscript.html).
 
-The following is a minimal file.
-
-<%= render_code("setup.py", "python") %>
-
-### __init__.py
+### [__init__.py](https://github.com/idlerun/simple-pex/blob/master/samplepkg/__init__.py)
 
 Empty file to mark `samplepkg` as a package directory
 
-### main.py
+### [__init__.py](https://github.com/idlerun/simple-pex/blob/master/samplepkg/main.py)
 
 The actual CLI code entry point
-
-<%= render_code("samplepkg/main.py", "python") %>
 
 ## Build
 
