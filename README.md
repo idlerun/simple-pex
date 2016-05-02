@@ -29,7 +29,7 @@ The `setup.py` contains a package description. More details can be found [here](
 
 Empty file to mark `samplepkg` as a package directory
 
-### [__init__.py](https://github.com/idlerun/simple-pex/blob/master/samplepkg/main.py)
+### [main.py](https://github.com/idlerun/simple-pex/blob/master/samplepkg/main.py)
 
 The actual CLI code entry point
 
