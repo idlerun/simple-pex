@@ -1,3 +1,9 @@
+---
+title: "Packaging a Simple Python Script with PEX"
+tags: python pex
+date: 2016-02-03
+---
+
 Recently I needed to create a package for a simple Python CLI tool which includes all dependencies.
 It turns out that there is a great tool [PEX](https://pex.readthedocs.org/en/stable/) which can build
 an executable zip Python package.
