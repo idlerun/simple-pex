@@ -1,5 +1,5 @@
 ---
-page: http://www.idle.run/simple-pex
+page: https://idle.run/simple-pex
 title: "Packaging a Simple Python Script with PEX"
 tags: python pex
 date: 2016-02-03
